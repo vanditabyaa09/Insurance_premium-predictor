@@ -23,6 +23,6 @@ def predict_output(user_input : dict) :
     # Create mapping: {class_name: probability}
     class_probs = dict(zip(class_labels, map(lambda p : round(p, 4), probabilities)))
 
-    return {
-        it 
-    }
+    # return {
+    #     it 
+    # }
