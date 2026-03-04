@@ -1,24 +1,60 @@
 # Virtual environment
 myenv/
 venv/
-.env/
+env/
+.venv/
 
-# Python cache files
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
+*.pyo
 
-# IDE settings
+# Byte-compiled / optimized files
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
 .vscode/
 .idea/
-
-# Model files (optional - include if you want to track them)
-# *.pkl
-
-# OS files
+*.swp
+*.swo
 .DS_Store
-Thumbs.db
 
-# Jupyter
-.ipynb_checkpoints/
+# Logs
+*.log
+logs/
+
+# Model artifacts (optional - uncomment if models are large)
+# *.pkl
+# *.joblib
+# models/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
